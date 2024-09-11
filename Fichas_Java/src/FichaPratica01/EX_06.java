@@ -15,8 +15,7 @@ public class EX_06 {
         System.out.println("Os valor 1 é: "+valor1+" O valor 2 é: "+valor2);
 
 
-
-        valor1 = valor2;
+        
         valor2 = valor1;
 
         System.out.println("O valor 1: "+ valor1);
