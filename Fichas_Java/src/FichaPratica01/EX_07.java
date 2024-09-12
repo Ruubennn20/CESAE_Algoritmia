@@ -9,13 +9,13 @@ public class EX_07 {
         int p1,p2,p3,total;
         double resultado,desconto;
 
-        System.out.print("Intruduzar o preço do produto 1: ");
+        System.out.print("Intruduzir o preço do produto 1: ");
         p1 = input.nextInt();
 
-        System.out.print("Intruduzar o preço do produto 2: ");
+        System.out.print("Intruduzir o preço do produto 2: ");
         p2 = input.nextInt();
 
-        System.out.print("Intruduzar o preço do produto 3: ");
+        System.out.print("Intruduzir o preço do produto 3: ");
         p3 = input.nextInt();
 
         desconto = 0.90;
