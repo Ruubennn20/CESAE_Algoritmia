@@ -14,9 +14,11 @@ public class EX_01 {
         System.out.print("Intruduz o segundo numero: ");
         num2 = input.nextInt();
 
-        if (num1 >= num2)
-            System.out.println("O maior é: "+num1);
-
+        if (num1 > num2) {
+            System.out.println("O maior é: " + num1);
+        }else{
+            System.out.println("O maior é: " + num2);
+        }
         }
 
 }
