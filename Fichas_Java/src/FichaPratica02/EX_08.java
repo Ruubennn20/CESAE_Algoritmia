@@ -16,10 +16,6 @@ public class EX_08 {
         System.out.print("Indique o terceiro valor: ");
         valor3 = input.nextInt();
 
-        mAritmetica = (valor1 + valor2 + valor3)/3;
-
-        System.out.println("valor: "+mAritmetica);
-
         mVariavel = (valor1 * 0.25)+(valor2 * 0.35)+(valor3 * 0.4);
 
         if(mVariavel>=9.5){
