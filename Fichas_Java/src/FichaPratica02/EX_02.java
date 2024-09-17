@@ -6,18 +6,17 @@ public class EX_02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int salario;
-        double taxa1=0.20, taxa2=0.30,taxa20,taxa30;
+        double salario,taxa;
 
         System.out.print("Intruduz o salario: ");
         salario = input.nextInt();
 
         if (salario <= 15000) {
-            taxa20 = salario * taxa1;
-            System.out.println("A taxa de 20% é: " + taxa20);
+            taxa = salario * 0.2;
+            System.out.println("A taxa de 20% é: " + taxa);
         }else {
-            taxa30 = salario * taxa2;
-            System.out.println("A taxa de 30% é:  " + taxa30);
+            taxa = salario * 0.3;
+            System.out.println("A taxa de 30% é:  " + taxa);
         }
 
     }
