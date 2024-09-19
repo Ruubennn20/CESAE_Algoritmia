@@ -16,10 +16,12 @@ public class EX_11 {
         aux = saldo + saldoMovimentar;
 
         if (aux >= 0) {
+            System.out.println("O Saldo fica: " + aux);
         } else {
             System.out.println("Operacao Invalida: Saldo insuficiente");
+            System.out.println("Saldo Atual: " + saldo);
+
         }
-        System.out.println("Saldo Atual: "+saldo);
     }
 }
 
