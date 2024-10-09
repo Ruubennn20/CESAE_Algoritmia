@@ -24,7 +24,7 @@ public class EX_03 {
                 }
             }
         } while (jogador1 != jogador2);
-            System.out.println("Yay Adivinhou, com "+numJogadas+" tentativas");
+        System.out.println("Yay Adivinhou, com " + numJogadas + " tentativas");
     }
 
 }
