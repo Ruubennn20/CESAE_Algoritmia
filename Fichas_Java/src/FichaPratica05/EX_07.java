@@ -6,10 +6,10 @@ public class EX_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int[] numeros = new int[12];
+        int[] numeros = new int[4];
         int numMaiorPar = 0;
 
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Insere os numeros na lista " + i + ": ");
             numeros[i] = input.nextInt();
         }

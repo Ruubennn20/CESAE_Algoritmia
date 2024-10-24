@@ -4,21 +4,31 @@ import java.util.Scanner;
 
 public class EX_04 {
     public static void main(String[] args) {
+
+        // Import do Scanner
         Scanner input = new Scanner(System.in);
 
-        int[] numeros = new int [10];
-        int numMenor = 0;
+        // Declarar variáveis
+        int[] vetor = new int[5];
+        int menor;
 
-        for (int i=0;i<numeros.length; i++){
-            System.out.print("Insere os numeros na lista " + i + ": ");
-            numeros[i] = input.nextInt();
+        // Ler vetor
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Insira no vetor[" + i + "]: ");
+            vetor[i] = input.nextInt();
         }
-        numMenor = numeros[4];
-        for (int i=0 ; i<numeros.length ; i++) {
-            if (numMenor < numeros[i]) {
-                numMenor = numeros[i];
+
+        // Inicializar o menor
+        menor = vetor[0];
+
+        // Encontrar o menor elemento
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] < menor) {
+                menor = vetor[i];
             }
         }
-        System.out.println(numMenor);
+
+        System.out.println("Menor: " + menor);
+
     }
 }

@@ -4,20 +4,31 @@ import java.util.Scanner;
 
 public class EX_03 {
     public static void main(String[] args) {
+
+        // Import do Scanner
         Scanner input = new Scanner(System.in);
 
-        int[] numeros = new int[12];
-        int numMaior = 0;
+        // Declarar variáveis
+        int[] vetor = new int[5];
+        int maior;
 
-        for (int i = 0; i<12 ; i++) {
-            System.out.print("Insere os numeros na lista " + i + ": ");
-            numeros[i] = input.nextInt();
+        // Ler vetor
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Insira no vetor[" + i + "]: ");
+            vetor[i] = input.nextInt();
         }
-        for (int i = 0; i<numeros.length; i++){
-            if (numeros[i] > numMaior){
-                numMaior = numeros[i];
+
+        // Inicializar o maior
+        maior = vetor[0];
+
+        // Encontrar o maior elemento
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] > maior) {
+                maior = vetor[i];
             }
         }
-        System.out.println(numMaior);
+
+        System.out.println("Maior: " + maior);
+
     }
 }
