@@ -20,11 +20,10 @@ public class EX_12 {
             array2[i] = input.nextInt();
         }
         for (int i = 0; i < 10; i++) {
-            matriz[i][0] = array1[i];  // Elemento da primeira coluna da matriz recebe o valor do array1
-            matriz[i][1] = array2[i];  // Elemento da segunda coluna da matriz recebe o valor do array2
+            matriz[i][0] = array1[i];
+            matriz[i][1] = array2[i];
         }
-
-        // Exibindo a matriz 10x2
+        
         System.out.println("\nMatriz 10x2 gerada:");
         for (int i = 0; i < 10; i++) {
             System.out.println(matriz[i][0] + " " + matriz[i][1]);
