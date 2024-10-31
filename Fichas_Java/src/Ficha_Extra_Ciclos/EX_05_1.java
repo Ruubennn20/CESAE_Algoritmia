@@ -5,7 +5,7 @@ public class EX_05_1 {
 
         for(int n=1; n <= 5; n++){
             for(int i=1; i<=n; i++ ){
-                System.out.print(n);
+                System.out.print("*");
             }
             System.out.println(" ");
         }
