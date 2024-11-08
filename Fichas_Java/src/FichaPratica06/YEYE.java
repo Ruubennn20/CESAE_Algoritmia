@@ -11,7 +11,9 @@ public class YEYE {
         System.out.println("Insere o numero");
         userNum = input.nextInt();
 
-        double mathResult = Math.sqrt(1+8*userNum);
+        double mathResult ;
+
+        mathResult= Math.sqrt(1+8*userNum);
 
         if (mathResult == (int) mathResult && mathResult % 2 != 0){
             System.out.println(userNum + " é um numero triangular");
