@@ -13,8 +13,6 @@ public class EX_09 {
 
         Scanner musica = new Scanner(new File(caminhoFicheiro));
 
-
-
         while (musica.hasNextLine()) {
             String linhaMusica = musica.nextLine();
             String[] musicas = linhaMusica.split(",");
@@ -85,11 +83,6 @@ public class EX_09 {
         System.out.println("Insere um numero para pesquisar musicas com a duração desse numero");
         int numero = input.nextInt();
 
-
-        int maiorMinuto= 0;
-        int maiorSegundo= 0;
-        String nomeArtista = "bla";
-        String nomeDaMusica = "bla";
         Scanner musica = new Scanner(new File(caminhoFicheiro));
 
         String linhaMusica = musica.nextLine();
