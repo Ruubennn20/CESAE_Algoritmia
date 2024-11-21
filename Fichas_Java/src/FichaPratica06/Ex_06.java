@@ -3,7 +3,7 @@ package FichaPratica06;
 import java.util.Scanner;
 
 import static FichaPratica06.Ex_02.lerInteiroPositivo;
-import static FichaPratica06.Ex_05.*;
+import static FichaPratica06.EX_05_aula.*;
 import static java.lang.Thread.sleep;
 
 public class Ex_06 {
