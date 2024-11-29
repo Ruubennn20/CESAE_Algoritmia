@@ -9,6 +9,7 @@ public class EX_13 {
         int[][] matriz = new int[4][4];
         int soma = 0;
 
+
         for (int linha = 0; linha < matriz.length; linha++) {
             for (int coluna = 0; coluna < matriz[0].length; coluna++) {
 
